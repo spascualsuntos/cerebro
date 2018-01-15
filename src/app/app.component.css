@@ -1,0 +1,55 @@
+.big-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+.toolbar {
+    position: fixed;
+    z-index: 2;
+}
+
+.titles{
+    margin-left: 8px;
+  }
+
+.sidenav-container {
+    flex: 1;
+    margin-top: 64px;
+}
+
+.menu-item {
+    text-align: relative;
+    padding-top: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.sidemenu {
+    width: 200px;
+    vertical-align: 70px;   
+}
+
+.menu-images {
+    height: 200px;
+    width: 40%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.main-table {
+    width: 70%;
+    margin-top: 110px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.table-item {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
